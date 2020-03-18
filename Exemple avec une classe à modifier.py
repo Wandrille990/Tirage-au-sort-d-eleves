@@ -76,12 +76,9 @@ try:
     except IndexError:
         print("")
         print("ERREUR : Il reste moins de 3 personnes qui peuvent poser les questions.")
-        print(
-            "Veuillez réinitialiser les listes d'élèves en retirant les '#' devant les prénoms et relancer le programme.")
-        print(
-            "Gardez les personnes déjà sélectionnées pour poser les questions et rajouter y les premières désignées une fois le programme réinitialisé et relancer.")
-        print(
-            "Vous pourrez ensuite à nouveau mettre les '#' devant les personnes choisies comme précedemment, jusqu'à ce que ce message d'erreur arrive à nouveau.")
+        print("Veuillez réinitialiser les listes d'élèves en retirant les '#' devant les prénoms et relancer le programme.")
+        print("Gardez les personnes déjà sélectionnées pour poser les questions et rajouter y les premières désignées une fois le programme réinitialisé et relancer.")
+        print("Vous pourrez ensuite à nouveau mettre les '#' devant les personnes choisies comme précedemment, jusqu'à ce que ce message d'erreur arrive à nouveau.")
         print("")
 
     shuffle(classe_interroge)
@@ -105,19 +102,13 @@ try:
         print(classe_interroge[2])
     except IndexError:
         print("")
-        print(
-            "ERREUR : Un ou plusieurs élèves qui posent les questions sont les mêmes que ceux qui peuvent y répondre, il n'a plus de possibilités.")
-        print(
-            "Veuillez réinitialiser les listes d'élèves en retirant les '#' devant les prénoms et relancer le programme.")
-        print(
-            "Gardez les personnes déjà sélectionnées pour poser ou répondre aux questions et rajoutez y les premières désignées un fois le programme réinitialisé et relancer.")
-        print(
-            "Vous pourrez ensuite à nouveau mettre les '#' devant les personnes choisies comme précedemment, jusqu'a ce que ce message d'erreur arrive à nouveau.")
+        print("ERREUR : Un ou plusieurs élèves qui posent les questions sont les mêmes que ceux qui peuvent y répondre, il n'a plus de possibilités.")
+        print("Veuillez réinitialiser les listes d'élèves en retirant les '#' devant les prénoms et relancer le programme.")
+        print("Gardez les personnes déjà sélectionnées pour poser ou répondre aux questions et rajoutez y les premières désignées un fois le programme réinitialisé et relancer.")
+        print("Vous pourrez ensuite à nouveau mettre les '#' devant les personnes choisies comme précedemment, jusqu'a ce que ce message d'erreur arrive à nouveau.")
         print("")
 
 except NameError:
     print('')
     print("La classe que vous avez appelé n'éxiste pas.")
     print("Relancer le programme en vous assurant de ne pas vous tromper dans l'appel de la classe voulue.")
-
-# créé par Wandrille Legras
